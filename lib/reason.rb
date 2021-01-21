@@ -1,0 +1,25 @@
+require 'telegram/bot'
+require 'net/http'
+require 'json'
+require_relative 'bot'
+
+class Joke
+  @values = nil
+
+  def initialize
+    @values = chuck_json
+  end
+
+  def chuck_json
+    url = 'https://api.chucknorris.io/jokes/random'
+    uri = URI(url)
+    response = Net::HTTP.get(uri)
+    parse = JSON.parse(response)
+    parse
+  end
+
+  def select_value
+    @values = @values.slice('value')
+    @values
+  end
+end
