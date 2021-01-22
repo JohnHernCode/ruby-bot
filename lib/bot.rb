@@ -1,3 +1,5 @@
+# rubocop:disable Metrics/LineLength
+
 require 'telegram/bot'
 require_relative 'reason'
 require 'dotenv'
@@ -24,4 +26,5 @@ class Bot
       end
     end
   end
+  # rubocop:enable Metrics/LineLength
 end

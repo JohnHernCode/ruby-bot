@@ -14,8 +14,7 @@ class Reason
     url = 'https://api.chucknorris.io/jokes/random'
     uri = URI(url)
     response = Net::HTTP.get(uri)
-    parse = JSON.parse(response)
-    parse
+    JSON.parse(response)
   end
 
   def select_value
