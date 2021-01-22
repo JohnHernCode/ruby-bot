@@ -12,7 +12,6 @@
 
 - Ruby
 - Rubocop
-- Telegram
 
 <!--## Live Demo
 
