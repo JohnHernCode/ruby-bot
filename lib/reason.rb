@@ -3,7 +3,7 @@ require 'net/http'
 require 'json'
 require_relative 'bot'
 
-class Joke
+class Reason
   @values = nil
 
   def initialize

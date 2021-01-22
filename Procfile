@@ -1,0 +1,1 @@
+web: bundle exec main -C bin/main.rb
