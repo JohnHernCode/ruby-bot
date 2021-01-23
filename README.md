@@ -1,68 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Tic-Tac-Toe
 
-> This is the third project on the Microverse Ruby Module. It is about creating a playable CLI Version of the game Tic-tac-toe for two players.
+# Ruby-Bot- Microverse Ruby Project Capstone - Telgram Chuck Norris Info Bot
 
-At the start of the game, you will be prompted to enter the name of player one. Player one will be the "X" symbol.
-Then you will be prompted to enter the name of player two. Player two will be the "O" symbol.
-Players take turns placing their respective symbols on a 3x3 grid. The first player to place 3 sequential symbols in a row, column, or diagonal wins the game.
-If neither one of the players manages to place 3 consecutive symbols the game ends in a draw.
+> This is the capstone project on the Microverse Ruby Module. The assignment called for creating a bot that was either useful or just plain fun. This bot also uses telegram to have fun with the user. 
 
-The 3x3 grid is numbered from top-left to bottom-right with the numbers 1, 2, 3, 4, 5, 6, 7, 8, and 9 (a representation of the grid will be shown before you are prompted to chose).
-To place your symbol on the grid just type the number that corresponds to the position in which you want to place the symbol, and then press enter.
+## Screenshot
+![screenshot](./screen.png)
+
 
 ## Built With
 
 - Ruby
 - Rubocop
 
-## Live Demo
+## Usage
 
-[![Run on Repl.it](https://repl.it/badge/github/acushlakoncept/Enumerable)](https://repl.it/@NoTengoBattery/tic-tac-toe#bin/main.rb)
+- git clone git@github.com:JohnHernCode/Advanced-Building-Blocks-Enumerables.git
+- cd ruby-bot
+- Type "bundle install" to install dependencies.
+- Type "bin/main.rb" to run the bot.
+- The bot will not return a value in the terminal, but run in Telegram
+
+## On Telegram
+- Visit https://t.me/JohnHCBot
+- Type /start (if it hasn't already)
+- Follow the on screen instructions to play with the bot
 
 
-## Getting Started
 
-- Clone this repository to your local machine.
-- Open your terminal.
-- From Inside the terminal, go to the "bin" directory inside the "ruby-bot" directory you cloned.
-- Run bundle install to install the dependencies. 
-- Type main.rb
-
-or
-
-- Clone this repository to your local machine.
-- Go to the "bin" directory inside the "tic-tac-toe" directory you cloned.
-- Open the file main.rb
-
-### Prerequisites
-
-- Ruby
+Type `ruby main.rb` in terminal
 
 ## Authors
 
-👤 **Author1**
+👤 **John hernandez**
 
-- GitHub: [@NoTengoBattery](https://github.com/NoTengoBattery)
-- Twitter: [@notengobattery](https://twitter.com/notengobattery)
-- LinkedIn: [José Oever González Hernández](https://www.linkedin.com/in/NoTengoBattery/)
-
-👤 **Author2**
-
-- GitHub: [@jpdf00](https://github.com/jpdf00)
-- Twitter: [@jpdf00](https://twitter.com/jpdf00)
-- LinkedIn: [João Paulo Dias França](https://linkedin.com/linkedinhandle)
+- GitHub: [johnhernandez-code](https://github.com/johnhernandez-code)
+- Twitter: [@JohnHernCode](https://twitter.com/JohnHernCode)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-hernandez-56a7821b8/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/NoTengoBattery/tic-tac-toe/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Thanks for the both parties involved in the development of this project.
 
 ## 📝 License
 
