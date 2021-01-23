@@ -27,10 +27,6 @@
 - Type /start (if it hasn't already)
 - Follow the on screen instructions to play with the bot
 
-
-
-Type `ruby main.rb` in terminal
-
 ## Authors
 
 👤 **John hernandez**
