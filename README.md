@@ -26,7 +26,8 @@ To place your symbol on the grid just type the number that corresponds to the po
 
 - Clone this repository to your local machine.
 - Open your terminal.
-- From Inside the terminal, go to the "bin" directory inside the "tic-tac-toe" directory you cloned.
+- From Inside the terminal, go to the "bin" directory inside the "ruby-bot" directory you cloned.
+- Run bundle install to install the dependencies. 
 - Type main.rb
 
 or
