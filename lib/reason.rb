@@ -15,9 +15,9 @@ class Reason
   def select_value
     @values.slice('value')
   end
-  
+
   private
-  
+
   def chuck_json
     url = 'https://api.chucknorris.io/jokes/random'
     uri = URI(url)
