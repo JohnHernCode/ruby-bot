@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Ruby-Bot
+
+# Ruby-Bot- Microverse Ruby Project Capstone - Telgram Chuck Norris Info Bot
 
 > This is the capstone project on the Microverse Ruby Module. The assignment called for creating a bot that was either useful or just plain fun. This bot also uses telegram to have fun with the user. 
 
@@ -13,27 +14,22 @@
 - Ruby
 - Rubocop
 
-<!--## Live Demo
+## Usage
 
-[![Run on Repl.it](https://repl.it/badge/github/acushlakoncept/Enumerable)](#)-->
+- git clone git@github.com:JohnHernCode/Advanced-Building-Blocks-Enumerables.git
+- cd ruby-bot
+- Type "bundle install" to install dependencies.
+- Type "bin/main.rb" to run the bot.
+- The bot will not return a value in the terminal, but run in Telegram
 
-
-## Getting Started
-
-- Clone this repository to your local machine.
-- Open your terminal.
-- From Inside the terminal, go to the "bin" directory inside the "ruby-bot" directory you cloned.
-- Type main.rb
-
-For Telegram
-
+## On Telegram
 - Visit https://t.me/JohnHCBot
 - Type /start (if it hasn't already)
 - Follow the on screen instructions to play with the bot
 
-### Prerequisites
 
-- Ruby
+
+Type `ruby main.rb` in terminal
 
 ## Authors
 
@@ -47,11 +43,13 @@ For Telegram
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/JohnHernCode/ruby-bot/issues).
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+Thanks for the both parties involved in the development of this project.
 
 ## 📝 License
 
