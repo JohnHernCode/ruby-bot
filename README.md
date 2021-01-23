@@ -16,6 +16,7 @@
 
 ## Usage
 
+
 - git clone git@github.com:JohnHernCode/Advanced-Building-Blocks-Enumerables.git
 - cd ruby-bot
 - Type "bundle install" to install dependencies.
@@ -26,6 +27,7 @@
 - Visit https://t.me/JohnHCBot
 - Type /start (if it hasn't already)
 - Follow the on screen instructions to play with the bot
+
 
 ## Authors
 
