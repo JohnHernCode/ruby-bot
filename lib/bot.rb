@@ -7,7 +7,6 @@ Dotenv.load('token.env')
 
 class Bot
   def initialize
-    @values = Reason.new
     token = '1564003055:AAGjwAuEyQAwoLt3KzIGVBnj-bjiT7x8YGc'
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
@@ -19,6 +18,7 @@ class Bot
         when '/stop'
           bot.api.send_message(chat_id: message.chat.id, text: "Remember, Chuck loves you #{message.from.first_name}", date: message.date)
         when '/chuck_rocks'
+          @values = Reason.new
           value = @values.select_value
           bot.api.send_photo(chat_id: message.chat.id, photo: @values.img, date: message.date)
           bot.api.send_message(chat_id: message.chat.id, text: (value['value']).to_s, date: message.date)
