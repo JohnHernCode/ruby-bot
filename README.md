@@ -16,9 +16,14 @@
 
 ## Usage
 
+
 - git clone git@github.com:JohnHernCode/Advanced-Building-Blocks-Enumerables.git
 - cd ruby-bot
 - Type "bundle install" to install dependencies.
+- NOTE: Because I use dotenv, the token will be encrypted. For future purposes
+>You will need to add a new file called token.env
+In that file you will need to place your token as such:
+TOKEN = "YOUR TOKEN"
 - Type "bin/main.rb" to run the bot.
 - The bot will not return a value in the terminal, but run in Telegram
 
@@ -27,9 +32,6 @@
 - Type /start (if it hasn't already)
 - Follow the on screen instructions to play with the bot
 
-
-
-Type `ruby main.rb` in terminal
 
 ## Authors
 
