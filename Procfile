@@ -1,1 +1,1 @@
-web: bundle exec main -C bin/main.rb
+worker: bundle exec ruby bin/main.rb
