@@ -8,7 +8,7 @@ Dotenv.load('token.env')
 class Bot
   def initialize
     @values = Reason.new
-    token = ENV['TOKEN']
+    token = "1564003055:AAGjwAuEyQAwoLt3KzIGVBnj-bjiT7x8YGc"
     Telegram::Bot::Client.run(token) do |bot|
       bot.listen do |message|
         case message.text
